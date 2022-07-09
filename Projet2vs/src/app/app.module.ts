@@ -4,8 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { SearchComponent } from './search/search.component';
+
 import { NavbarComponent } from './navbar/navbar.component';
+import { MainComponent } from './main/main.component';
 
 
 
@@ -14,8 +15,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SearchComponent,
+
     NavbarComponent,
+      MainComponent,
 
 
   ],
