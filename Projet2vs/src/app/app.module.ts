@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
-import { NavbarComponent } from './navbar/navbar.component';
+
 import { MainComponent } from './main/main.component';
 
 
@@ -16,7 +16,7 @@ import { MainComponent } from './main/main.component';
     HeaderComponent,
     FooterComponent,
 
-    NavbarComponent,
+
       MainComponent,
 
 

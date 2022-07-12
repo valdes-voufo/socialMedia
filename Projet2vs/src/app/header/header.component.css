@@ -1,6 +1,55 @@
+.header{
+  display: flex;
+  background: white;
+  height: 75px;
+  border: #92999f;
+}
+.header_id{
+  flex: 1;
+  background: darkblue;
+}
 
+.header_navbar{
+  flex: 2;
+  background: white;
+  height: 75px;
+  display: flex;
+}
 
+.header_user{
+  flex: 1;
+  background: rebeccapurple;
+}
+.header_menu{
+  display: flex;
+  flex: 1;
+  padding: 15px 50px 15px 50px ;
 
+}
+.home{
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  display: block;
+}
+.home a{
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  vertical-align: center;
+  flex: 1;
 
-
+}
+.jobs{
+  flex: 1;
+  background: white;
+}
+.services{
+  flex: 1;
+  background: green;
+}
+.others{
+  flex: 1;
+  background: yellow;
+}
 
