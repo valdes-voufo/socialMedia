@@ -17,8 +17,5 @@ public class Post{
     String postText ;
     List<Comment> postsComments  ;
     int numblike ; 
-    
-    
-    
-    
+        
 }

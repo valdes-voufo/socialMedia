@@ -9,4 +9,6 @@ public class Entreprise{
     String name ;
     String entrepriseId ;
     User owner ;
+    
+    
 }

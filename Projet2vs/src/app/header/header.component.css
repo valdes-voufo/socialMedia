@@ -6,7 +6,6 @@
 }
 .header_id{
   flex: 1;
-  background: darkblue;
 }
 
 .header_navbar{
@@ -16,40 +15,63 @@
   display: flex;
 }
 
-.header_user{
-  flex: 1;
-  background: rebeccapurple;
-}
+
 .header_menu{
   display: flex;
   flex: 1;
-  padding: 15px 50px 15px 50px ;
+  padding: 15px 50px 15px 50px;
+  
 
 }
 .home{
-  flex: 1;
-  justify-content: center;
+  flex: 2;
   text-align: center;
-  display: block;
+  
 }
-.home a{
-  text-decoration: none;
-  font-size: 25px;
-  color:black;
-  vertical-align: center;
-  flex: 1;
-
+.navbar_space{
+  flex:1 ;
+}
+.material-icons{
+  font-size: 50px;
+  color: #1877F2;
 }
 .jobs{
-  flex: 1;
-  background: white;
+  flex: 2;
+  text-align: center;
 }
 .services{
-  flex: 1;
-  background: green;
+  flex: 2;
+  text-align: center;
+ 
 }
 .others{
-  flex: 1;
-  background: yellow;
+  flex: 2;
+  text-align:center;
 }
 
+.header_user{
+  flex: 1;
+  display: flex;
+  padding: 30px 15px 30px 0px;
+}
+
+.user_profil {
+ flex: 1;   
+
+}
+.user_notification{
+  flex: 1;   
+ 
+ }
+ .user_menu {
+  flex: 1;   
+
+ }
+  
+.header_user div i {
+  font-size: 25px;
+}
+.user_space{
+  flex: 4;
+
+}

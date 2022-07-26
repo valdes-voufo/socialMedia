@@ -15,10 +15,10 @@ public class User{
     String image ;
     String  status ;  //maried ?
     //ocupation
-    String city ;
     String job ;
     String jobDomain ;
     //adress
+    String city ;
     String telNumber ;
     String email ;
     Entreprise entrprise ;
