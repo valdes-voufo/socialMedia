@@ -83,7 +83,6 @@
   display: block;
   margin-left:  auto;
   margin-right: auto;
-  width: 80%;
   height:40px;
   width:40px;
   border-radius: 100%;
@@ -133,10 +132,56 @@ a:visited{
 }
 .post_image{
   flex: 7;
-  background-color: yellow;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+.post_image_img{
+  width: 100%;
+  
 }
 .post_bottom{
   flex: 1;
-  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+.post_botom_top{
+  flex: 1;
+  display: flex; 
+}
+.like_top{
+  flex: 1;
+  display: flex;
+}
+.coment_top{
+  flex: 1;
+  background-color: red;
+}
 
+
+.post_bottom_space{
+  flex: 7;
+}
+
+.like_top_sticker{
+  flex: 2;
+  margin-left: 10px;
+}
+.like_top_number{
+  flex: 1;
+  font-size: 20px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+.fa {
+ width: 20px;
+ font-size: 25px;
+ color: #65676B;
+ margin-top: 2px;
+ margin-bottom: 2px;
+}
+
+.post_botom_bottom{
+  flex: 1;
+  background-color: yellow;
 }
