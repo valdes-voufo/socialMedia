@@ -3,9 +3,20 @@
   background: white;
   height: 75px;
   border: #92999f;
+
 }
 .header_id{
   flex: 1;
+}
+
+.header_id p{
+  margin-left: 8px;
+  color: #1877F2;
+  font-style: italic;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header_navbar{
@@ -32,7 +43,7 @@
   flex:1 ;
 }
 .material-icons{
-  font-size: 50px;
+  font-size: 40px;
   color: #1877F2;
 }
 .jobs{
