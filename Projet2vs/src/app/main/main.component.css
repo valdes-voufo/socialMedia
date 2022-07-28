@@ -1,5 +1,4 @@
 .main{
-  background: #F0F2F5;
   height: 2000px;
   display: flex;
 
@@ -11,7 +10,7 @@
   margin-top: 2px;
   margin-left: 5px;
   margin-right: 2px;
-  border-radius: 3px;
+  
   flex: 2;
 }
 
@@ -21,7 +20,6 @@
   margin-top: 2px;
   border-radius: 3px;
   flex: 3;
-  background: white;
 
 }
 .main_right{
@@ -29,7 +27,7 @@
   margin-left: 2px;
   margin-right: 5px;
   margin-top: 2px;
-  border-radius: 3px;
+ 
   flex: 2;
 }
 .profils{
@@ -38,8 +36,7 @@
   height: 200px;
   border-radius: 5px;
   padding: 5px;
-  margin-left: 20px;
-  margin-right: 20px;
+  
 }
 .profil{
 
@@ -54,19 +51,84 @@
 
 /*for the component post*/
 .post{
+  background-color: white;
+  margin-top: 2px;
   height: 600px;
-  background-color: blue;
   display: flex;
   flex-direction: column;
+  border: 5px;
+  border-radius: 7px;
+ border: solid;
+ border-color:  #F0F2F5;
+
 }
 
 
 .post_head{
-  flex: 2;
-  background-color: red;
+  flex: 1;
+  display: flex;
+  color: blue;
+  padding: 10px 15px 10px 15px;
+}
+.post_head_content{
+  margin: 5px;
+  display: flex;
+  flex: 1;
+   
+}
+.post_head_icon{
+  flex: 1; 
+}
+.post_head_icon_img{
+  display: block;
+  margin-left:  auto;
+  margin-right: auto;
+  width: 80%;
+  height:40px;
+  width:40px;
+  border-radius: 100%;
+  
+}
+
+.post_head_text{
+  flex: 9;
+  display: flex;
+  flex-direction: column;
+}
+.post_head_text_name{
+  flex: 1;
+ 
+  font-size: 17px;
+  font-weight: 200;
+}
+ a{
+  text-decoration: none;
+  color: black; 
+}
+
+a:visited{
+  text-decoration: none;
+}
+.post_head_text_time{
+  flex: 1;
+  color: #65676B;
+  font-size: 12px;
+  font-weight: 600;
+  
+}
+
+.post_head_option{
+  flex: 1;
+}
+
+
+.material-icons{
+  font-size: 40px;
+  color: #1877F2;
 }
 .post_text{
   flex: 3;
+  padding: 15px;
 
 }
 .post_image{
