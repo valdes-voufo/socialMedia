@@ -7,6 +7,9 @@ import { FooterComponent } from './footer/footer.component';
 
 
 import { MainComponent } from './main/main.component';
+import { WritePostComponent } from './write-post/write-post.component';
+import { SimplePostComponent } from './simple-post/simple-post.component';
+import { JobPostComponent } from './job-post/job-post.component';
 
 
 
@@ -18,6 +21,9 @@ import { MainComponent } from './main/main.component';
 
 
       MainComponent,
+          WritePostComponent,
+          SimplePostComponent,
+          JobPostComponent,
 
 
   ],

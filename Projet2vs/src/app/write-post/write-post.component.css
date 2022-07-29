@@ -1,0 +1,57 @@
+.write_post{
+    height: fit-content;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 20px;
+    
+    padding: 5px
+  
+  
+  }
+
+.write_post_top{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  .write_post_top_content{
+    width: 95%;
+    
+   border-bottom: #65676B;
+    border-width: 1px;
+    height: 90%;
+    display: flex;
+  }
+  .write_post_image{
+    flex: 1;
+  }
+  .write_post_form{
+    flex: 8;
+  }
+  .write_post_form input{
+    width: 98%;
+    height: 89%;
+    border:none ;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+  }
+  
+  .write_post_action{
+    flex: 1;
+    margin-top: 5px;
+    display: flex;
+  }
+  .write_post_action div{
+    flex: 1;
+  }
+  
+  .write_post_action div button{
+    border-radius: 7px;
+    width: 100%;
+    border: none;
+  }

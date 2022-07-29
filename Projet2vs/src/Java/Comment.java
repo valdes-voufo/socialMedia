@@ -9,7 +9,5 @@ import java.util.* ;
 public class Comment{
     String CommentId ;
     User commentAutor ;
-    Date creationDate ;
-    
-    
+    Date creationDate ;   
 }
