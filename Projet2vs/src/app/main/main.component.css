@@ -1,5 +1,5 @@
 .main{
-  height: 2000px;
+  height: 10000px;
   display: flex;
 
 }
@@ -53,13 +53,14 @@
 .post{
   background-color: white;
   margin-top: 2px;
-  height: 600px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   border: 5px;
   border-radius: 7px;
  border: solid;
  border-color:  #F0F2F5;
+ margin-bottom: 15px;
 
 }
 
@@ -144,18 +145,34 @@ a:visited{
   flex: 1;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
+
 .post_botom_top{
   flex: 1;
   display: flex; 
+  border-bottom: solid;
+  color: #65676B;
+  border-width: 1px;
+  
 }
 .like_top{
   flex: 1;
   display: flex;
+  
 }
 .coment_top{
   flex: 1;
-  background-color: red;
+  display: flex;
+  font-size: 20px;
+  padding: 3px;
+  color: #65676B;
+  
+}
+
+.coment_top_number{
+  margin-right: 3px;
+  color: #65676B;
 }
 
 
@@ -172,6 +189,7 @@ a:visited{
   font-size: 20px;
   padding-right: 10px;
   padding-top: 5px;
+ 
 }
 .fa {
  width: 20px;
@@ -183,5 +201,111 @@ a:visited{
 
 .post_botom_bottom{
   flex: 1;
-  background-color: yellow;
+  
+  display: flex;
+}
+
+.like{
+  flex: 1;
+  
+  display: flex;
+}
+.coment{
+flex: 1;
+
+}
+.save{
+  flex: 1;
+  
+}
+
+.post_botom_bottom button{
+  color: #65676B;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 10px;
+  border:none ;
+  margin-left: 2px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  
+}
+.post_botom_bottom button:hover {
+ background-color: #F0F0F0;
+}
+.post_botom_bottom button i{
+  margin-right: 10px;
+}
+.post_botom_bottom button i:hover {
+  color: #1877F2;
+}
+.fa{
+  margin-right: 5px ;
+}
+
+
+/*job post***************************/
+
+.job_ident{
+  height: 85px;
+  
+  display: flex;
+}
+
+.firm_logo{
+  flex: 1;
+  margin-left: 15px;
+  padding-left: 10px;
+}
+
+.firm_logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  border: solid;
+  border-color:#65676B;
+  margin-left: auto;
+}
+
+.job_info{
+  padding-left: 7px;
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+.firm_name{
+  flex: 1;
+  font-size: 25px;
+  font-weight:  500; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #1877F2;
+}
+.job_title{
+  flex: 1;
+  font-size: 20px;
+}
+.info{
+  flex: 1;
+  display: flex;
+  font-size: 17px;
+}
+.info div{
+  flex: 1;
+  padding: 3px;
+  color: #1877F2;
+}
+
+.firm_logo_space{
+  flex: 6;
+}
+
+.job_description{
+  padding: 25px;
+  border-bottom-color: antiquewhite;
+  border-top-style:groove;
+  border-width: 0.1px;
+  margin-top: 2px;
+  
 }
