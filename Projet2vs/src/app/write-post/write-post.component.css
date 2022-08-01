@@ -1,14 +1,17 @@
 .write_post{
-    height: fit-content;
+    height: 100px;
     flex-direction: column;
     background-color: white;
     border-radius: 5px;
+    border-color: #65676B;
     display: flex;
-    margin-bottom: 20px;
-    
-    padding: 5px
-  
-  
+    margin-bottom: 15px;
+    padding: 10px
+  }
+  .post_head_icon_img{
+     height:50px;
+     width: 50px;
+     border-radius: 50%;
   }
 
 .write_post_top{
@@ -16,16 +19,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
    
   }
   
   .write_post_top_content{
-    width: 95%;
-    
-   border-bottom: #65676B;
+    width: 95%; 
+    border-bottom: #65676B;
     border-width: 1px;
-    height: 90%;
+    height: 95%;
     display: flex;
+    
   }
   .write_post_image{
     flex: 1;
@@ -39,19 +43,45 @@
     border:none ;
     background-color: #F5F5F5;
     border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    
   }
   
+  
   .write_post_action{
+    
     flex: 1;
     margin-top: 5px;
     display: flex;
+    justify-content: space-between;
+    height: 50px;
+    
   }
   .write_post_action div{
-    flex: 1;
+    width: 49%;
   }
   
+  .write_post_action div button:hover{
+    background-color: whitesmoke;
+  }
   .write_post_action div button{
     border-radius: 7px;
     width: 100%;
     border: none;
+    height: 100%;
+    font-size: 18px;
+    
+  }
+
+  .fa{
+    color: red;
+    width: 30px;
+    font-size: 20px;
+    margin-right: 3px;
+  }
+
+  .write_post_action div button:hover{
+    cursor: pointer;
+  
   }
