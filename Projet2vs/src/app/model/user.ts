@@ -16,4 +16,5 @@ export interface user{
     telNumber:string ;
     email:string ;
     entreprise:entreprise ;
+    domain: String ;
 }

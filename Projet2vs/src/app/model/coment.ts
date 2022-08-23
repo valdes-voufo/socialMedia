@@ -1,8 +1,7 @@
 import { user } from "./user";
 
-export interface coment {
+export interface comment {
     id:string ;
     autor:user ;
     creationDate:Date ;
-    resposeTo:;
 }
