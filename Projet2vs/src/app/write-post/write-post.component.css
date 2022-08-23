@@ -1,5 +1,5 @@
 .write_post{
-    height: 100px;
+    height: 120px;
     flex-direction: column;
     background-color: white;
     border-radius: 5px;
@@ -15,21 +15,23 @@
   }
 
 .write_post_top{
-    flex: 1;
+    flex: 2;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-   
+
+
   }
-  
+
   .write_post_top_content{
-    width: 95%; 
+    width: 95%;
     border-bottom: #65676B;
     border-width: 1px;
     height: 95%;
     display: flex;
-    
+   align-items: center;
+
+
   }
   .write_post_image{
     flex: 1;
@@ -41,27 +43,31 @@
     width: 98%;
     height: 89%;
     border:none ;
-    background-color: #F5F5F5;
+    background-color: #F0F2F5;
     border-radius: 20px;
     box-sizing: border-box;
     padding: 20px;
-    
+
   }
-  
-  
+
+
   .write_post_action{
-    
+
     flex: 1;
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
     height: 50px;
-    
+
+    border-top: solid;
+    border-width: thin;
+    border-color: #65676B;
+
   }
   .write_post_action div{
     width: 49%;
   }
-  
+
   .write_post_action div button:hover{
     background-color: whitesmoke;
   }
@@ -71,7 +77,8 @@
     border: none;
     height: 100%;
     font-size: 18px;
-    
+    background-color: white;
+
   }
 
   .fa{
@@ -83,5 +90,5 @@
 
   .write_post_action div button:hover{
     cursor: pointer;
-  
+
   }
