@@ -3,6 +3,6 @@ import { user } from "./user";
 export interface entreprise{
     id:string ;
     name:string ;
-    owner:user ;
+    owner:001 ;
     imgUrl:string ;
 }
