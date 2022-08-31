@@ -14,11 +14,11 @@
 }
 
 .header_id p{
-  margin-left: 8px;
   color: #1877F2;
   font-style: italic;
   font-weight: 700;
-  margin-top: 0;
+  margin-top: 4%;
+  margin-left: 10%;
   font-size: 40px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -35,13 +35,13 @@
   display: flex;
   flex: 1;
   padding: 15px 50px 15px 50px;
-  
+
 
 }
 .home{
   flex: 2;
   text-align: center;
-  
+
 }
 .navbar_space{
   flex:1 ;
@@ -57,7 +57,7 @@
 .services{
   flex: 2;
   text-align: center;
- 
+
 }
 .others{
   flex: 2;
@@ -71,18 +71,18 @@
 }
 
 .user_profil {
- flex: 1;   
+ flex: 1;
 
 }
 .user_notification{
-  flex: 1;   
- 
- }
- .user_menu {
-  flex: 1;   
+  flex: 1;
 
  }
-  
+ .user_menu {
+  flex: 1;
+
+ }
+
 .header_user div i {
   font-size: 25px;
 }
