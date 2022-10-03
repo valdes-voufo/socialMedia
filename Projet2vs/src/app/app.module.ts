@@ -15,6 +15,7 @@ import { FilterComponent } from './filter/filter.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDatepickerModule} from "@angular/material/datepicker";
 import {MatSliderModule} from "@angular/material/slider";
+import { HomeComponentComponent } from './pages/home-component/home-component.component';
 
 
 
@@ -31,6 +32,7 @@ import {MatSliderModule} from "@angular/material/slider";
           SimplePostComponent,
           JobPostComponent,
           FilterComponent,
+          HomeComponentComponent,
 
 
   ],
