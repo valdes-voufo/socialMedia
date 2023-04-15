@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDatepickerModule} from "@angular/material/datepicker";
 import {MatSliderModule} from "@angular/material/slider";
 import { HomeComponentComponent } from './pages/home-component/home-component.component';
+import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 
 
 
@@ -33,6 +34,7 @@ import { HomeComponentComponent } from './pages/home-component/home-component.co
           JobPostComponent,
           FilterComponent,
           HomeComponentComponent,
+          LandingPageComponent,
 
 
   ],
