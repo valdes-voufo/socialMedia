@@ -15,8 +15,12 @@ import { FilterComponent } from './filter/filter.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDatepickerModule} from "@angular/material/datepicker";
 import {MatSliderModule} from "@angular/material/slider";
-import { HomeComponentComponent } from './pages/home-component/home-component.component';
-import { LandingPageComponent } from './pages/landing-page/landing-page.component';
+
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatButtonModule} from "@angular/material/button";
+import {RouterModule} from "@angular/router";
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import {MatIconModule} from "@angular/material/icon";
 
 
 
@@ -33,7 +37,6 @@ import { LandingPageComponent } from './pages/landing-page/landing-page.componen
           SimplePostComponent,
           JobPostComponent,
           FilterComponent,
-          HomeComponentComponent,
           LandingPageComponent,
 
 
@@ -43,7 +46,11 @@ import { LandingPageComponent } from './pages/landing-page/landing-page.componen
     MatSlideToggleModule,
     BrowserAnimationsModule,
     MatDatepickerModule,
-    MatSliderModule
+    MatSliderModule,
+    MatToolbarModule,
+    MatButtonModule,
+    RouterModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
